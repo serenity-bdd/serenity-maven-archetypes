@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>net.serenity-bdd</groupId>
+    <artifactId>serenity-archetypes</artifactId>
+    <name>serenity-archetypes</name>
+    <version>1.0.0-SNAPSHOT</version>
+
+    <description>Maven Archetypes for the Serenity BDD Reporting library</description>
+    <packaging>pom</packaging>
+
+    <scm>
+        <connection>git@github.com:serenity-bdd/serenity-maven-archetypes.git</connection>
+        <developerConnection>git@github.com:serenity-bdd/serenity-maven-archetypes.git</developerConnection>
+        <url>git@github.com:serenity-bdd/serenity-maven-archetypes.git</url>
+    </scm>
+
+  <build>
+    <extensions>
+      <extension>
+        <groupId>org.apache.maven.archetype</groupId>
+        <artifactId>archetype-packaging</artifactId>
+        <version>2.2</version>
+      </extension>
+    </extensions>
+
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <artifactId>maven-archetype-plugin</artifactId>
+          <version>2.2</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+    <modules>
+        <module>serenity-junit-archetype</module>
+    </modules>
+</project>
