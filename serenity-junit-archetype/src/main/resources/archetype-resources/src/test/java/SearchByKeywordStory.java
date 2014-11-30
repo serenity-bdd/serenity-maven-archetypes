@@ -16,12 +16,10 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 
-import ${package}.requirements.Application;
 import ${package}.steps.EndUserSteps;
 
-@Story(Application.Search.SearchByKeyword.class)
 @RunWith(ThucydidesRunner.class)
-public class SearchByKeywordStoryTest {
+public class SearchByKeywordStory {
 
     @Managed(uniqueSession = true)
     public WebDriver webdriver;

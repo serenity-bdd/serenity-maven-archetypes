@@ -36,5 +36,6 @@
   </build>
     <modules>
         <module>serenity-junit-archetype</module>
+        <module>serenity-jbehave-archetype</module>
     </modules>
 </project>
