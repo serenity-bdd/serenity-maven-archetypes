@@ -11,9 +11,9 @@
     <packaging>pom</packaging>
 
     <scm>
-        <connection>git@github.com:serenity-bdd/serenity-maven-archetypes.git</connection>
-        <developerConnection>git@github.com:serenity-bdd/serenity-maven-archetypes.git</developerConnection>
-        <url>git@github.com:serenity-bdd/serenity-maven-archetypes.git</url>
+        <connection>scm:git:git@github.com:serenity-bdd/serenity-maven-archetypes.git</connection>
+        <developerConnection>scm:git:git@github.com:serenity-bdd/serenity-maven-archetypes.git</developerConnection>
+        <url>scm:git:git@github.com:serenity-bdd/serenity-maven-archetypes.git</url>
     </scm>
 
   <build>
@@ -34,6 +34,16 @@
       </plugins>
     </pluginManagement>
   </build>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.5.1</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
     <modules>
         <module>serenity-junit-archetype</module>
         <module>serenity-jbehave-archetype</module>
