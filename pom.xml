@@ -38,4 +38,11 @@
         <module>serenity-junit-archetype</module>
         <module>serenity-jbehave-archetype</module>
     </modules>
+    <distributionManagement>
+        <repository>
+            <id>bintray-serenity-maven-serenity-archetypes</id>
+            <name>serenity-maven-serenity-archetypes</name>
+            <url>https://api.bintray.com/maven/serenity/maven/serenity-archetypes</url>
+        </repository>
+    </distributionManagement>
 </project>
