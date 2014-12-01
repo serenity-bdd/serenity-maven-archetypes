@@ -65,5 +65,9 @@
             <name>serenity-maven-serenity-archetypes</name>
             <url>https://api.bintray.com/maven/serenity/maven/serenity-archetypes</url>
         </repository>
+        <snapshotRepository>
+            <id>local-snapshots</id>
+            <url>file:${user.home}/.m2/repository/</url>
+        </snapshotRepository>
     </distributionManagement>
 </project>
