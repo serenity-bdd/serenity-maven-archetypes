@@ -83,9 +83,10 @@
             <url>https://api.bintray.com/maven/serenity/maven/serenity-archetypes</url>
         </repository>
         <snapshotRepository>
-            <id>oss-jfrog-artifactory</id>
-            <name>oss-jfrog-artifactory-snapshots</name>
-            <url>http://oss.jfrog.org/artifactory/oss-snapshot-local</url>
+            <id>sonatype-nexus-snapshots</id>
+            <name>sonatype-nexus-snapshots</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </snapshotRepository>
+
     </distributionManagement>
 </project>
