@@ -40,9 +40,10 @@
         <dependency>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-release-plugin</artifactId>
-            <version>2.5.1</version>
+            <version>2.4</version>
         </dependency>
     </dependencies>
+
     <modules>
         <module>serenity-junit-archetype</module>
         <module>serenity-jbehave-archetype</module>
