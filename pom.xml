@@ -100,7 +100,6 @@
     <modules>
         <module>serenity-junit-archetype</module>
         <module>serenity-jbehave-archetype</module>
-        <module>serenity-cucumber-archetype</module>
     </modules>
     <distributionManagement>
         <repository>
