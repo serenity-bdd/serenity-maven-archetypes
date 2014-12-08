@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>net.serenity-bdd</groupId>
@@ -14,8 +15,36 @@
         <connection>scm:git:git@github.com:serenity-bdd/serenity-maven-archetypes.git</connection>
         <developerConnection>scm:git:git@github.com:serenity-bdd/serenity-maven-archetypes.git</developerConnection>
         <url>scm:git:git@github.com:serenity-bdd/serenity-maven-archetypes.git</url>
-      <tag>HEAD</tag>
-  </scm>
+        <tag>HEAD</tag>
+    </scm>
+    <url>http://www://github.com/serenity-bdd/serenity-archetypes</url>
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <organization>
+        <name>Wakaleo Consulting</name>
+        <url>http://www.wakaleo.com</url>
+    </organization>
+    <issueManagement>
+        <system>github</system>
+        <url>http://www://github.com/serenity-bdd/serenity-archetypes/issues</url>
+    </issueManagement>
+    <ciManagement>
+        <system>Snap-CI</system>
+        <url>https://snap-ci.com/serenity-bdd/serenity-archetypes</url>
+    </ciManagement>
+    <inceptionYear>2014</inceptionYear>
+    <developers>
+        <developer>
+            <id>johnsmart</id>
+            <name>John Ferguson Smart</name>
+            <email>john.smart@wakaleo.com</email>
+        </developer>
+    </developers>
 
     <build>
         <extensions>
@@ -71,6 +100,7 @@
     <modules>
         <module>serenity-junit-archetype</module>
         <module>serenity-jbehave-archetype</module>
+        <module>serenity-cucumber-archetype</module>
     </modules>
     <distributionManagement>
         <repository>
