@@ -3,6 +3,6 @@
 #set( $symbol_escape = '\' )
 package ${package}.jbehave;
 
-import net.thucydides.jbehave.SerenityStories;
+import net.serenity_bdd.jbehave.SerenityStories;
 
 public class AcceptanceTestSuite extends SerenityStories {}
