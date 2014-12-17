@@ -12,7 +12,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <serenity.version>1.0.16</serenity.version>
+        <serenity.version>1.0.21</serenity.version>
         <webdriver.driver>firefox</webdriver.driver>
     </properties>
 
@@ -105,50 +105,4 @@
             </plugin>
         </plugins>
     </build>
-
-    <profiles>
-        <profile>
-            <id>maven2</id>
-            <activation>
-                <file>
-                    <missing>${basedir}</missing>
-                </file>
-            </activation>
-            <reporting>
-                <plugins>
-                    <plugin>
-                        <groupId>net.serenity-bdd.maven.plugins</groupId>
-                        <artifactId>serenity-maven-plugin</artifactId>
-                        <version>${serenity.version}</version>
-                    </plugin>
-                </plugins>
-            </reporting>
-        </profile>
-        <profile>
-            <id>maven3</id>
-            <activation>
-                <file>
-                    <exists>${basedir}</exists>
-                </file>
-            </activation>
-            <build>
-                <plugins>
-                    <plugin>
-                        <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-site-plugin</artifactId>
-                        <version>3.4</version>
-                        <configuration>
-                            <reportPlugins>
-                                <plugin>
-                                    <groupId>net.serenity-bdd.maven.plugins</groupId>
-                                    <artifactId>serenity-maven-plugin</artifactId>
-                                    <version>${serenity.version}</version>
-                                </plugin>
-                            </reportPlugins>
-                        </configuration>
-                    </plugin>
-                </plugins>
-            </build>
-        </profile>
-    </profiles>
 </project>
