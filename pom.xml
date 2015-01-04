@@ -5,7 +5,7 @@
     <groupId>net.serenity-bdd</groupId>
     <artifactId>serenity-archetypes</artifactId>
     <name>serenity-archetypes</name>
-    <version>1.0.5-SNAPSHOT</version>
+    <version>1.0.5</version>
 
     <description>Maven Archetypes for the Serenity BDD Reporting library</description>
     <packaging>pom</packaging>
@@ -14,7 +14,7 @@
         <connection>scm:git:git@github.com:serenity-bdd/serenity-maven-archetypes.git</connection>
         <developerConnection>scm:git:git@github.com:serenity-bdd/serenity-maven-archetypes.git</developerConnection>
         <url>scm:git:git@github.com:serenity-bdd/serenity-maven-archetypes.git</url>
-        <tag>HEAD</tag>
+        <tag>serenity-archetypes-1.0.5</tag>
     </scm>
     <url>http://www://github.com/serenity-bdd/serenity-archetypes</url>
     <licenses>
