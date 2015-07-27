@@ -16,6 +16,12 @@
       </includes>
     </fileSet>
     <fileSet filtered="true" packaged="true" encoding="UTF-8">
+      <directory></directory>
+      <includes>
+        <include>serenity.properties</include>
+      </includes>
+    </fileSet>
+    <fileSet filtered="true" packaged="true" encoding="UTF-8">
       <directory>src/test/java</directory>
       <includes>
         <include>**/*.java</include>

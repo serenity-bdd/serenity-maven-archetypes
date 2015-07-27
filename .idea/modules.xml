@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/serenity-archetypes.iml" filepath="$PROJECT_DIR$/serenity-archetypes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serenity-cucumber-archetype/serenity-cucumber-archetype.iml" filepath="$PROJECT_DIR$/serenity-cucumber-archetype/serenity-cucumber-archetype.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serenity-jbehave-archetype/serenity-jbehave-archetype.iml" filepath="$PROJECT_DIR$/serenity-jbehave-archetype/serenity-jbehave-archetype.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serenity-junit-archetype/serenity-junit-archetype.iml" filepath="$PROJECT_DIR$/serenity-junit-archetype/serenity-junit-archetype.iml" />
+    </modules>
+  </component>
+</project>

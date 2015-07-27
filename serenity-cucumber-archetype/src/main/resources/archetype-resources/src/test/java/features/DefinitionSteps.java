@@ -1,7 +1,7 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${package}.cucumber;
+package ${package}.features;
 
 import net.thucydides.core.annotations.Steps;
 import cucumber.api.java.en.Given;
@@ -13,21 +13,21 @@ import ${package}.steps.EndUserSteps;
 public class DefinitionSteps {
 
     @Steps
-    EndUserSteps endUser;
+    EndUserSteps anna;
 
     @Given("the user is on the Wikionary home page")
     public void givenTheUserIsOnTheWikionaryHomePage() {
-        endUser.is_the_home_page();
+        anna.is_the_home_page();
     }
 
     @When("the user looks up the definition of the word '(.*)'")
     public void whenTheUserLooksUpTheDefinitionOf(String word) {
-        endUser.looks_for(word);
+        anna.looks_for(word);
     }
 
     @Then("they should see the definition '(.*)'")
     public void thenTheyShouldSeeADefinitionContainingTheWords(String definition) {
-        endUser.should_see_definition(definition);
+        anna.should_see_definition(definition);
     }
 
 }
