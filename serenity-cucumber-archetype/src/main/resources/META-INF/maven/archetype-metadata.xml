@@ -4,7 +4,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <fileSets>
     <fileSet filtered="true" packaged="true" encoding="UTF-8">
-      <directory></directory>
+      <directory/>
       <includes>
         <include>build.gradle</include>
         <include>serenity.properties</include>
