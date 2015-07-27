@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f420a6f-b63b-4d52-a641-098ec444d16d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenity-cucumber-archetype/src/main/resources/META-INF/maven/archetype-metadata.xml" afterPath="$PROJECT_DIR$/serenity-cucumber-archetype/src/main/resources/META-INF/maven/archetype-metadata.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenity-jbehave-archetype/src/main/resources/META-INF/maven/archetype-metadata.xml" afterPath="$PROJECT_DIR$/serenity-jbehave-archetype/src/main/resources/META-INF/maven/archetype-metadata.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenity-junit-archetype/src/main/resources/META-INF/maven/archetype-metadata.xml" afterPath="$PROJECT_DIR$/serenity-junit-archetype/src/main/resources/META-INF/maven/archetype-metadata.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenity-jbehave-archetype/src/main/resources/archetype-resources/build.gradle" afterPath="$PROJECT_DIR$/serenity-jbehave-archetype/src/main/resources/archetype-resources/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serenity-junit-archetype/src/main/resources/archetype-resources/build.gradle" afterPath="$PROJECT_DIR$/serenity-junit-archetype/src/main/resources/archetype-resources/build.gradle" />
     </list>
     <ignored path="serenity-archetypes.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,11 +59,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="archetype-metadata.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="archetype-metadata.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/serenity-cucumber-archetype/src/main/resources/META-INF/maven/archetype-metadata.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10330579">
+            <state vertical-scroll-proportion="0.0">
               <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/serenity-cucumber-archetype/src/main/resources/archetype-resources/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/serenity-jbehave-archetype/src/main/resources/archetype-resources/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.45454547">
+              <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/serenity-junit-archetype/src/main/resources/archetype-resources/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/serenity-jbehave-archetype/src/main/resources/archetype-resources/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="97" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -108,7 +147,6 @@
         <option value="$PROJECT_DIR$/serenity-cucumber-archetype/src/main/resources/archetype-resources/thucydides.properties" />
         <option value="$PROJECT_DIR$/serenity-jbehave-archetype/pom.xml" />
         <option value="$PROJECT_DIR$/serenity-junit-archetype/pom.xml" />
-        <option value="$PROJECT_DIR$/serenity-junit-archetype/src/main/resources/archetype-resources/build.gradle" />
         <option value="$PROJECT_DIR$/serenity-junit-archetype/src/main/resources/archetype-resources/pom.xml" />
         <option value="$PROJECT_DIR$/serenity-junit-archetype/src/main/resources/archetype-resources/src/test/java/SearchByKeywordStory.java" />
         <option value="$PROJECT_DIR$/serenity-junit-archetype/src/main/resources/archetype-resources/src/main/java/pages/steps/EndUserSteps.java" />
@@ -121,6 +159,8 @@
         <option value="$PROJECT_DIR$/serenity-junit-archetype/src/main/resources/META-INF/maven/archetype-metadata.xml" />
         <option value="$PROJECT_DIR$/serenity-jbehave-archetype/src/main/resources/META-INF/maven/archetype-metadata.xml" />
         <option value="$PROJECT_DIR$/serenity-cucumber-archetype/src/main/resources/META-INF/maven/archetype-metadata.xml" />
+        <option value="$PROJECT_DIR$/serenity-jbehave-archetype/src/main/resources/archetype-resources/build.gradle" />
+        <option value="$PROJECT_DIR$/serenity-junit-archetype/src/main/resources/archetype-resources/build.gradle" />
       </list>
     </option>
   </component>
@@ -281,6 +321,10 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="archetype-resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -431,10 +475,6 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maven" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -459,6 +499,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="archetype-resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -723,12 +767,12 @@
       <created>1437990740263</created>
       <option name="number" value="Default" />
       <updated>1437990740263</updated>
-      <workItem from="1437990743192" duration="6297000" />
+      <workItem from="1437990743192" duration="6961000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6297000" />
+    <option name="totallyTimeSpent" value="6961000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="27" y="23" width="1440" height="823" extended-state="0" />
@@ -807,14 +851,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serenity-cucumber-archetype/src/main/resources/archetype-resources/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/serenity-cucumber-archetype/src/main/resources/archetype-resources/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -871,26 +907,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serenity-junit-archetype/src/main/resources/archetype-resources/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/serenity-jbehave-archetype/src/main/resources/archetype-resources/serenity.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenity-jbehave-archetype/src/main/resources/archetype-resources/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.62963">
-          <caret line="97" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -985,8 +1005,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/serenity-cucumber-archetype/src/main/resources/META-INF/maven/archetype-metadata.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10330579">
+        <state vertical-scroll-proportion="0.0">
           <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity-jbehave-archetype/src/main/resources/archetype-resources/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="97" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity-junit-archetype/src/main/resources/archetype-resources/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity-cucumber-archetype/src/main/resources/archetype-resources/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity-jbehave-archetype/src/main/resources/archetype-resources/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45454547">
+          <caret line="22" column="52" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
           <folding />
         </state>
       </provider>
