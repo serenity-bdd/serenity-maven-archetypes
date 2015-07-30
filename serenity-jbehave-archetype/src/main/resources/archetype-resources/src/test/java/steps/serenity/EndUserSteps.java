@@ -1,7 +1,7 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${package}.steps;
+package ${package}.steps.serenity;
 
 import ${package}.pages.DictionaryPage;
 import net.thucydides.core.annotations.Step;

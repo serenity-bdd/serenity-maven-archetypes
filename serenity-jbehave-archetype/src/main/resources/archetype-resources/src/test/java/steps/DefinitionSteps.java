@@ -1,14 +1,14 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${package}.jbehave;
+package ${package}.steps;
 
 import net.thucydides.core.annotations.Steps;
 import org.jbehave.core.annotations.Given;
 import org.jbehave.core.annotations.Then;
 import org.jbehave.core.annotations.When;
 
-import ${package}.steps.EndUserSteps;
+import ${package}.steps.serenity.EndUserSteps;
 
 public class DefinitionSteps {
 
