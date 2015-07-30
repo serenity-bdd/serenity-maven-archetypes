@@ -3,14 +3,11 @@
 #set( $symbol_escape = '\' )
 package ${package}.features.search;
 
+import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Issue;
-import net.thucydides.core.annotations.ManagedPages;
+import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Pending;
 import net.thucydides.core.annotations.Steps;
-import net.thucydides.core.annotations.Story;
-import net.thucydides.core.pages.Pages;
-import net.thucydides.core.annotations.Managed;
-import net.thucydides.junit.runners.ThucydidesRunner;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -18,7 +15,7 @@ import org.openqa.selenium.WebDriver;
 
 import ${package}.steps.serenity.EndUserSteps;
 
-@RunWith(ThucydidesRunner.class)
+@RunWith(SerenityRunner.class)
 public class SearchByKeywordStory {
 
     @Managed(uniqueSession = true)
