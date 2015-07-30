@@ -16,7 +16,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 
-import ${package}.steps.EndUserSteps;
+import ${package}.steps.serenity.EndUserSteps;
 
 @RunWith(ThucydidesRunner.class)
 public class SearchByKeywordStory {
