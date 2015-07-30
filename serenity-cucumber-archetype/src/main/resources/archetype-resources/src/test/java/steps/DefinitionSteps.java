@@ -1,14 +1,14 @@
 #set( $symbol_pound = '#' )
 #set( $symbol_dollar = '$' )
 #set( $symbol_escape = '\' )
-package ${package}.features;
+package ${package}.steps;
 
 import net.thucydides.core.annotations.Steps;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-import ${package}.steps.EndUserSteps;
+import ${package}.steps.serenity.EndUserSteps;
 
 public class DefinitionSteps {
 
