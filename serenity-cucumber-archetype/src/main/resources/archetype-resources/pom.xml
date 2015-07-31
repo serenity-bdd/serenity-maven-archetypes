@@ -86,7 +86,7 @@
                 <version>2.18.1</version>
                 <configuration>
                     <includes>
-                        <include>**/features/*.java</include>
+                        <include>**/*.java</include>
                     </includes>
                     <argLine>-Xmx512m</argLine>
                     <systemPropertyVariables>
