@@ -20,8 +20,10 @@ apply plugin: 'net.serenity-bdd.aggregator'
 
 dependencies {
     compile 'net.serenity-bdd:serenity-core:1.1.26-rc.3'
-    compile 'net.serenity-bdd:serenity-jbehave:1.1.0'
-    testCompile('junit:junit:4.11')
+    compile 'net.serenity-bdd:serenity-junit:1.1.26-rc.3'
+    compile 'net.serenity-bdd:serenity-screenplay:1.1.26-rc.3'
+    compile 'net.serenity-bdd:browse-the-web:1.1.26-rc.3'
+    testCompile('junit:junit:4.12')
     compile('org.assertj:assertj-core:1.7.0')
     compile('com.googlecode.lambdaj:lambdaj:2.3.3')
 }

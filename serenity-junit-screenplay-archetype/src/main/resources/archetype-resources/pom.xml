@@ -2,17 +2,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>${groupId}</groupId>
-    <artifactId>${artifactId}</artifactId>
-    <version>${version}</version>
+
+    <groupId>groupId</groupId>
+    <artifactId>artifactId</artifactId>
+    <version>version</version>
     <packaging>jar</packaging>
 
-    <name>Sample Serenity project using JBehave and WebDriver</name>
+    <name>Serenity project with JUnit and WebDriver</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <serenity.version>1.1.26-rc.3</serenity.version>
-        <serenity.jbehave.version>1.1.0</serenity.jbehave.version>
         <webdriver.driver>firefox</webdriver.driver>
     </properties>
 
@@ -45,8 +45,18 @@
         </dependency>
         <dependency>
             <groupId>net.serenity-bdd</groupId>
-            <artifactId>serenity-jbehave</artifactId>
-            <version>${serenity.jbehave.version}</version>
+            <artifactId>serenity-screenplay</artifactId>
+            <version>${serenity.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>net.serenity-bdd</groupId>
+            <artifactId>browse-the-web</artifactId>
+            <version>${serenity.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>net.serenity-bdd</groupId>
+            <artifactId>serenity-junit</artifactId>
+            <version>${serenity.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -65,11 +75,6 @@
             <artifactId>assertj-core</artifactId>
             <version>1.7.0</version>
         </dependency>
-        <dependency>
-            <groupId>com.googlecode.lambdaj</groupId>
-            <artifactId>lambdaj</artifactId>
-            <version>2.3.3</version>
-        </dependency>
     </dependencies>
     <build>
         <plugins>
@@ -87,9 +92,9 @@
                 <configuration>
                     <includes>
                         <include>**/*Test.java</include>
-                        <include>**/*TestSuite.java</include>
                         <include>**/Test*.java</include>
                         <include>**/When*.java</include>
+                        <include>**/*Story.java</include>
                     </includes>
                     <argLine>-Xmx512m</argLine>
                     <systemPropertyVariables>
