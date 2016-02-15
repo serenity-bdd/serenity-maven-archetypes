@@ -38,15 +38,14 @@ public class SearchByKeywordStory {
         anna.can(BrowseTheWeb.with(herBrowser));
     }
 
-    @Issue("#GOOG-1")
     @Test
     public void seach_results_should_show_the_search_term_in_the_title() {
 
         givenThat(anna).wasAbleTo(openTheApplication);
 
-        when(anna).attemptsTo(Search.forTheTerm("apple"));
+        when(anna).attemptsTo(Search.forTheTerm("BDD In Action"));
 
-        then(anna).should(eventually(seeThat(TheWebPage.title(), containsString("apple"))));
+        then(anna).should(eventually(seeThat(TheWebPage.title(), containsString("BDD In Action"))));
 
     }
 }
