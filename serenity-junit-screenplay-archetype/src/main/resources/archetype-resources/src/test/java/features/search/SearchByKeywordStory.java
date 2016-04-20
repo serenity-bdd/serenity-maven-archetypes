@@ -39,7 +39,7 @@ public class SearchByKeywordStory {
     }
 
     @Test
-    public void seach_results_should_show_the_search_term_in_the_title() {
+    public void search_results_should_show_the_search_term_in_the_title() {
 
         givenThat(anna).wasAbleTo(openTheApplication);
 
