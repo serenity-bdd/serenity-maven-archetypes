@@ -5,13 +5,13 @@
   <parent>
       <groupId>net.serenity-bdd</groupId>
       <artifactId>serenity-archetypes</artifactId>
-      <version>1.1.21-SNAPSHOT</version>
+      <version>1.1.31</version>
   </parent>
 
   <artifactId>serenity-junit-screenplay-archetype</artifactId>
   <packaging>maven-archetype</packaging>
 
   <name>serenity-junit-screenplay-archetype</name>
-   
+
   <description>Serenity automated acceptance testing project using Screenplay, Selenium 2 and JUnit</description>
 </project>
