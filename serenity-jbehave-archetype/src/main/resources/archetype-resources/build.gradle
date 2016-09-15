@@ -9,7 +9,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath("net.serenity-bdd:serenity-gradle-plugin:1.1.36")
+        classpath("net.serenity-bdd:serenity-gradle-plugin:1.1.38")
     }
 }
 
@@ -19,7 +19,7 @@ apply plugin: 'idea'
 apply plugin: 'net.serenity-bdd.aggregator'
 
 dependencies {
-    compile 'net.serenity-bdd:serenity-core:1.1.36'
+    compile 'net.serenity-bdd:serenity-core:1.1.38'
     compile 'net.serenity-bdd:serenity-jbehave:1.13.0'
     testCompile('junit:junit:4.12')
     compile('org.assertj:assertj-core:1.7.0')
