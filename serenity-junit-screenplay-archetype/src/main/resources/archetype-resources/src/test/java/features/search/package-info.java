@@ -2,7 +2,6 @@
         #set( $symbol_dollar = '$' )
         #set( $symbol_escape = '\' )
 
-import net.thucydides.core.annotations.Narrative;
 @Narrative(
         title = "Search for definitions",
         text = {"In order to impress people",
@@ -12,3 +11,4 @@ import net.thucydides.core.annotations.Narrative;
 )
 package ${package}.features.search;
 
+import net.thucydides.core.annotations.Narrative;
