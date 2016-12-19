@@ -1,6 +1,8 @@
 #set( $symbol_pound = '#' )
         #set( $symbol_dollar = '$' )
         #set( $symbol_escape = '\' )
+
+import net.thucydides.core.annotations.Narrative;
 @Narrative(
         title = "Search for definitions",
         text = {"In order to impress people",
