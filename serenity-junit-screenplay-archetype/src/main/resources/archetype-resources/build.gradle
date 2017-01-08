@@ -9,7 +9,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath("net.serenity-bdd:serenity-gradle-plugin:1.2.2-rc.1")
+        classpath("net.serenity-bdd:serenity-gradle-plugin:1.2.2")
     }
 }
 
@@ -19,10 +19,10 @@ apply plugin: 'idea'
 apply plugin: 'net.serenity-bdd.aggregator'
 
 dependencies {
-    compile 'net.serenity-bdd:serenity-core:1.2.2-rc.1'
-    compile 'net.serenity-bdd:serenity-junit:1.2.2-rc.1'
-    compile 'net.serenity-bdd:serenity-screenplay:1.2.2-rc.1'
-    compile 'net.serenity-bdd:serenity-screenplay-webdriver:1.2.2-rc.1'
+    compile 'net.serenity-bdd:serenity-core:1.2.2'
+    compile 'net.serenity-bdd:serenity-junit:1.2.2'
+    compile 'net.serenity-bdd:serenity-screenplay:1.2.2'
+    compile 'net.serenity-bdd:serenity-screenplay-webdriver:1.2.2'
     testCompile('junit:junit:4.12')
     compile('org.assertj:assertj-core:1.7.0')
     compile('com.googlecode.lambdaj:lambdaj:2.3.3')
