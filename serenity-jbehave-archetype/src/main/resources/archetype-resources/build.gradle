@@ -9,7 +9,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath("net.serenity-bdd:serenity-gradle-plugin:1.2.2")
+        classpath("net.serenity-bdd:serenity-gradle-plugin:1.5.3")
     }
 }
 
@@ -18,11 +18,12 @@ apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'net.serenity-bdd.aggregator'
 
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
 dependencies {
-    compile 'net.serenity-bdd:serenity-core:1.2.2'
-    compile 'net.serenity-bdd:serenity-jbehave:1.21.0'
+    compile 'net.serenity-bdd:serenity-core:1.5.3'
+    compile 'net.serenity-bdd:serenity-jbehave:1.27.0'
     testCompile('junit:junit:4.12')
-    compile('org.assertj:assertj-core:1.7.0')
-    compile('com.googlecode.lambdaj:lambdaj:2.3.3')
 }
 gradle.startParameter.continueOnFailure = true
