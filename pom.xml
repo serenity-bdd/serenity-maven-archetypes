@@ -14,7 +14,7 @@
         <connection>scm:git:git@github.com:serenity-bdd/serenity-maven-archetypes.git</connection>
         <developerConnection>scm:git:git@github.com:serenity-bdd/serenity-maven-archetypes.git</developerConnection>
         <url>scm:git:git@github.com:serenity-bdd/serenity-maven-archetypes.git</url>
-        <tag>serenity-archetypes-1.5.4</tag>
+        <tag>serenity-archetypes-1.5.5</tag>
     </scm>
     <url>http://www://github.com/serenity-bdd/serenity-archetypes</url>
     <licenses>

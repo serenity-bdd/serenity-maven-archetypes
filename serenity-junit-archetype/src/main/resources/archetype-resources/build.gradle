@@ -9,7 +9,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath("net.serenity-bdd:serenity-gradle-plugin:1.5.3")
+        classpath("net.serenity-bdd:serenity-gradle-plugin:1.6.9")
     }
 }
 
@@ -22,8 +22,8 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 dependencies {
-    compile 'net.serenity-bdd:serenity-core:1.5.3'
-    compile 'net.serenity-bdd:serenity-junit:1.5.3'
+    compile 'net.serenity-bdd:serenity-core:1.6.9'
+    compile 'net.serenity-bdd:serenity-junit:1.6.9'
     testCompile('junit:junit:4.12')
 }
 gradle.startParameter.continueOnFailure = true
