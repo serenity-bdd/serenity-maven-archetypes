@@ -3,7 +3,6 @@
 #set( $symbol_escape = '\' )
 package ${package}.pages;
 
-import ch.lambdaj.function.convert.Converter;
 import net.thucydides.core.annotations.DefaultUrl;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
