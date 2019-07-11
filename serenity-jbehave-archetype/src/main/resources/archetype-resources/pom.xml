@@ -11,8 +11,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <serenity.version>2.0.33</serenity.version>
-        <serenity.jbehave.version>1.44.0</serenity.jbehave.version>
+        <serenity.version>2.0.48</serenity.version>
+        <serenity.jbehave.version>1.46.0</serenity.jbehave.version>
         <webdriver.driver>firefox</webdriver.driver>
     </properties>
 

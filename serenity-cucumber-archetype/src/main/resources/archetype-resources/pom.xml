@@ -11,8 +11,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <serenity.version>2.0.33</serenity.version>
-        <serenity.cucumber.version>1.9.23</serenity.cucumber.version>
+        <serenity.version>2.0.59</serenity.version>
+        <serenity.cucumber.version>1.9.43</serenity.cucumber.version>
         <webdriver.driver>firefox</webdriver.driver>
     </properties>
 
