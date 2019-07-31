@@ -12,7 +12,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <serenity.version>2.0.59</serenity.version>
+        <serenity.version>2.0.64</serenity.version>
         <webdriver.driver>firefox</webdriver.driver>
     </properties>
 
