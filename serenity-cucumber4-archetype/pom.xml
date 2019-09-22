@@ -11,7 +11,7 @@
     <artifactId>serenity-cucumber4-archetype</artifactId>
     <packaging>maven-archetype</packaging>
 
-    <name>Serenity Cucumber Archetype</name>
+    <name>Serenity Cucumber 4 Archetype</name>
 
     <description>Serenity automated acceptance testing project using Selenium 2, JUnit and Cucumber-JVM</description>
 </project>

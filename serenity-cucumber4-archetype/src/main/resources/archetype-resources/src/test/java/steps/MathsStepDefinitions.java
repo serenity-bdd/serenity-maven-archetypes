@@ -10,11 +10,15 @@ import cucumber.api.java.en.When;
 import cucumber.api.java.en.When;
 import static org.assertj.core.api.Assertions.assertThat;
 
+import ${package}.app.Calculator;
+
 public class MathsStepDefinitions {
 
     int a = 0;
     int b = 0;
     int total = 0;
+
+    Calculator calculator = new Calculator();
 
     @Given("a is {int}")
     public void givenAIs(int value) {
@@ -28,7 +32,7 @@ public class MathsStepDefinitions {
 
     @When("I add a and b")
     public void iAddAAndB() {
-        total = a + b;
+        total = calculator.add(a,b);
     }
 
     @Then("the total should be {int}")
