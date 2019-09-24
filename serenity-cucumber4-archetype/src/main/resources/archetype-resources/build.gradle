@@ -28,7 +28,9 @@ dependencies {
     compile('net.serenity-bdd:serenity-cucumber4:1.0.21')
     compile('io.cucumber:cucumber-java:4.2.0')
     compile('io.cucumber:cucumber-junit:4.2.0')
-    testCompile('junit:junit:4.12')
+    testRuntimeOnly("org.junit.platform:junit-platform-launcher:1.5.2")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.5.2")
+    testRuntimeOnly("org.junit.vintage:junit-vintage-engine:5.5.2")
     compile('org.assertj:assertj-core:3.8.0')
 }
 gradle.startParameter.continueOnFailure = true
