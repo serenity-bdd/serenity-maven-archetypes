@@ -9,7 +9,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath("net.serenity-bdd:serenity-gradle-plugin:2.0.72")
+        classpath("net.serenity-bdd:serenity-gradle-plugin:2.0.73")
     }
 }
 
@@ -22,7 +22,7 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 dependencies {
-    compile ('net.serenity-bdd:serenity-core:2.0.72')  {
+    compile ('net.serenity-bdd:serenity-core:2.0.73')  {
         exclude group: "io.cucumber", module: "cucumber-core"
     }
     compile('net.serenity-bdd:serenity-cucumber4:1.0.21')
@@ -34,3 +34,4 @@ dependencies {
     compile('org.assertj:assertj-core:3.8.0')
 }
 gradle.startParameter.continueOnFailure = true
+test.finalizedBy(aggregate)
