@@ -101,6 +101,7 @@
         <module>serenity-jbehave-archetype</module>
         <module>serenity-cucumber-archetype</module>
         <module>serenity-cucumber4-archetype</module>
+        <module>serenity-cucumber4-screenplay-archetype</module>
         <module>serenity-junit-screenplay-archetype</module>
     </modules>
     <distributionManagement>
