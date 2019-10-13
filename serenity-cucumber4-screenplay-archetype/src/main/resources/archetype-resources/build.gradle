@@ -9,7 +9,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath("net.serenity-bdd:serenity-gradle-plugin:2.0.77")
+        classpath("net.serenity-bdd:serenity-gradle-plugin:2.0.81")
     }
 }
 
@@ -22,15 +22,15 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 dependencies {
-    testImplementation ('net.serenity-bdd:serenity-core:2.0.77')  {
+    testImplementation ('net.serenity-bdd:serenity-core:2.0.81')  {
         exclude group: "io.cucumber", module: "cucumber-core"
     }
     testImplementation('net.serenity-bdd:serenity-cucumber4:1.0.21')
-    testImplementation('net.serenity-bdd:serenity-screenplay:2.0.77')
-    testImplementation('net.serenity-bdd:serenity-screenplay-webdriver:2.0.77')
-    testImplementation('net.serenity-bdd:serenity-screenplay-rest:2.0.77')
-    testImplementation('net.serenity-bdd:serenity-ensure:2.0.77')
-    testImplementation('net.serenity-bdd:serenity-assertions:2.0.77')
+    testImplementation('net.serenity-bdd:serenity-screenplay:2.0.81')
+    testImplementation('net.serenity-bdd:serenity-screenplay-webdriver:2.0.81')
+    testImplementation('net.serenity-bdd:serenity-screenplay-rest:2.0.81')
+    testImplementation('net.serenity-bdd:serenity-ensure:2.0.81')
+    testImplementation('net.serenity-bdd:serenity-assertions:2.0.81')
 
     testImplementation('io.cucumber:cucumber-java:4.2.0')
     testImplementation('io.cucumber:cucumber-junit:4.2.0')
