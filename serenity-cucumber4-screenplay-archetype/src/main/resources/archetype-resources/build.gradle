@@ -32,8 +32,8 @@ dependencies {
     testImplementation('net.serenity-bdd:serenity-ensure:2.0.91')
     testImplementation('net.serenity-bdd:serenity-assertions:2.0.91')
 
-    testImplementation('io.cucumber:cucumber-java:4.2.0')
-    testImplementation('io.cucumber:cucumber-junit:4.2.0')
+    testImplementation('io.cucumber:cucumber-java:4.8.0')
+    testImplementation('io.cucumber:cucumber-junit:4.8.0')
     testImplementation('org.assertj:assertj-core:3.8.0')
 
     testRuntimeOnly("org.junit.platform:junit-platform-launcher:1.5.2")
