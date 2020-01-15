@@ -9,7 +9,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath("net.serenity-bdd:serenity-gradle-plugin:2.0.81")
+        classpath("net.serenity-bdd:serenity-gradle-plugin:2.0.91")
     }
 }
 
@@ -22,10 +22,10 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 dependencies {
-    compile ('net.serenity-bdd:serenity-core:2.0.81')  {
+    compile ('net.serenity-bdd:serenity-core:2.0.91')  {
         exclude group: "io.cucumber", module: "cucumber-core"
     }
-    compile('net.serenity-bdd:serenity-cucumber4:1.0.21')
+    compile('net.serenity-bdd:serenity-cucumber4:1.0.30')
     compile('io.cucumber:cucumber-java:4.2.0')
     compile('io.cucumber:cucumber-junit:4.2.0')
     testRuntimeOnly("org.junit.platform:junit-platform-launcher:1.5.2")
