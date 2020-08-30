@@ -5,7 +5,7 @@
     <groupId>net.serenity-bdd</groupId>
     <artifactId>serenity-archetypes</artifactId>
     <name>serenity-archetypes</name>
-    <version>2.0.92-SNAPSHOT</version>
+    <version>3.2.2-SNAPSHOT</version>
 
     <description>Maven Archetypes for the Serenity BDD Reporting library</description>
     <packaging>pom</packaging>
@@ -100,8 +100,6 @@
         <module>serenity-junit-archetype</module>
         <module>serenity-jbehave-archetype</module>
         <module>serenity-cucumber-archetype</module>
-        <module>serenity-cucumber4-archetype</module>
-        <module>serenity-cucumber4-screenplay-archetype</module>
         <module>serenity-junit-screenplay-archetype</module>
     </modules>
     <distributionManagement>

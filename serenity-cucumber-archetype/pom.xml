@@ -5,7 +5,7 @@
     <parent>
         <groupId>net.serenity-bdd</groupId>
         <artifactId>serenity-archetypes</artifactId>
-        <version>2.0.92-SNAPSHOT</version>
+        <version>3.2.2-SNAPSHOT</version>
     </parent>
 
     <artifactId>serenity-cucumber-archetype</artifactId>
@@ -13,5 +13,5 @@
 
     <name>Serenity Cucumber Archetype</name>
 
-    <description>Serenity automated acceptance testing project using Selenium 2, JUnit and Cucumber-JVM</description>
+    <description>Serenity BDD automated acceptance test suite</description>
 </project>

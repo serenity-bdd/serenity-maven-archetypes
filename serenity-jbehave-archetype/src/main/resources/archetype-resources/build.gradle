@@ -9,7 +9,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath("net.serenity-bdd:serenity-gradle-plugin:2.0.48")
+        classpath("net.serenity-bdd:serenity-gradle-plugin:2.3.2")
     }
 }
 
@@ -22,7 +22,7 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 dependencies {
-    compile 'net.serenity-bdd:serenity-core:2.0.48'
+    compile 'net.serenity-bdd:serenity-core:2.3.2'
     compile 'net.serenity-bdd:serenity-jbehave:1.46.0'
     testCompile('junit:junit:4.12')
 }
