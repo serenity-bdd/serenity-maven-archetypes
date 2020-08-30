@@ -5,7 +5,7 @@
     <groupId>net.serenity-bdd</groupId>
     <artifactId>serenity-archetypes</artifactId>
     <name>serenity-archetypes</name>
-    <version>3.2.2-SNAPSHOT</version>
+    <version>2.3.2-SNAPSHOT</version>
 
     <description>Maven Archetypes for the Serenity BDD Reporting library</description>
     <packaging>pom</packaging>
